@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3448DF5D1D4EF13C005E7167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448DF5C1D4EF13C005E7167 /* AppDelegate.swift */; };
+		3448DF5F1D4EF13C005E7167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448DF5E1D4EF13C005E7167 /* ViewController.swift */; };
+		3448DF621D4EF13C005E7167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3448DF601D4EF13C005E7167 /* Main.storyboard */; };
+		3448DF641D4EF13C005E7167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3448DF631D4EF13C005E7167 /* Assets.xcassets */; };
+		3448DF671D4EF13C005E7167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3448DF651D4EF13C005E7167 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3448DF591D4EF13C005E7167 /* BeautySocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautySocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3448DF5C1D4EF13C005E7167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3448DF5E1D4EF13C005E7167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3448DF611D4EF13C005E7167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3448DF631D4EF13C005E7167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3448DF661D4EF13C005E7167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3448DF681D4EF13D005E7167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3448DF561D4EF13C005E7167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3448DF501D4EF13C005E7167 = {
+			isa = PBXGroup;
+			children = (
+				3448DF5B1D4EF13C005E7167 /* BeautySocial */,
+				3448DF5A1D4EF13C005E7167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3448DF5A1D4EF13C005E7167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3448DF591D4EF13C005E7167 /* BeautySocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3448DF5B1D4EF13C005E7167 /* BeautySocial */ = {
+			isa = PBXGroup;
+			children = (
+				3448DF5C1D4EF13C005E7167 /* AppDelegate.swift */,
+				3448DF5E1D4EF13C005E7167 /* ViewController.swift */,
+				3448DF601D4EF13C005E7167 /* Main.storyboard */,
+				3448DF631D4EF13C005E7167 /* Assets.xcassets */,
+				3448DF651D4EF13C005E7167 /* LaunchScreen.storyboard */,
+				3448DF681D4EF13D005E7167 /* Info.plist */,
+			);
+			path = BeautySocial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3448DF581D4EF13C005E7167 /* BeautySocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3448DF6B1D4EF13D005E7167 /* Build configuration list for PBXNativeTarget "BeautySocial" */;
+			buildPhases = (
+				3448DF551D4EF13C005E7167 /* Sources */,
+				3448DF561D4EF13C005E7167 /* Frameworks */,
+				3448DF571D4EF13C005E7167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautySocial;
+			productName = BeautySocial;
+			productReference = 3448DF591D4EF13C005E7167 /* BeautySocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3448DF511D4EF13C005E7167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Beauty Social";
+				TargetAttributes = {
+					3448DF581D4EF13C005E7167 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3448DF541D4EF13C005E7167 /* Build configuration list for PBXProject "BeautySocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3448DF501D4EF13C005E7167;
+			productRefGroup = 3448DF5A1D4EF13C005E7167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3448DF581D4EF13C005E7167 /* BeautySocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3448DF571D4EF13C005E7167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448DF671D4EF13C005E7167 /* LaunchScreen.storyboard in Resources */,
+				3448DF641D4EF13C005E7167 /* Assets.xcassets in Resources */,
+				3448DF621D4EF13C005E7167 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3448DF551D4EF13C005E7167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448DF5F1D4EF13C005E7167 /* ViewController.swift in Sources */,
+				3448DF5D1D4EF13C005E7167 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3448DF601D4EF13C005E7167 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3448DF611D4EF13C005E7167 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3448DF651D4EF13C005E7167 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3448DF661D4EF13C005E7167 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3448DF691D4EF13D005E7167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3448DF6A1D4EF13D005E7167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3448DF6C1D4EF13D005E7167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautySocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beautysocial.BeautySocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3448DF6D1D4EF13D005E7167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautySocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beautysocial.BeautySocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3448DF541D4EF13C005E7167 /* Build configuration list for PBXProject "BeautySocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3448DF691D4EF13D005E7167 /* Debug */,
+				3448DF6A1D4EF13D005E7167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3448DF6B1D4EF13D005E7167 /* Build configuration list for PBXNativeTarget "BeautySocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3448DF6C1D4EF13D005E7167 /* Debug */,
+				3448DF6D1D4EF13D005E7167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3448DF511D4EF13C005E7167 /* Project object */;
+}
